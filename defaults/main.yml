@@ -23,3 +23,5 @@ sshd_service: sshd
 sshd_sftp_server: /usr/lib/openssh/sftp-server
 sshd_defaults: {}
 sshd_os_supported: no
+
+sshd_config_j2: sshd_config.j2
