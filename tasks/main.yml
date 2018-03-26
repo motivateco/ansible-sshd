@@ -20,6 +20,7 @@
 
 - name: Configuration
   template:
+    backup: yes
     src: sshd_config.j2
     dest: "{{ sshd_config_file }}"
     owner: "{{ sshd_config_owner }}"
